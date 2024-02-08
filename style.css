@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+#colorBox {
+    width: 150px;
+    height: 150px;
+    margin: 20px 0;
+    border: 2px solid #000;
+}
+
+#message {
+    margin-bottom: 20px;
+}
+
+.colorButtons button {
+    padding: 8px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ac0505; /* Warna latar belakang */
+}
+
+.container {
+    text-align: center;
+    background-color: rgb(238, 141, 14);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#colorBox {
+    width: 150px;
+    height: 150px;
+    margin: 20px 0;
+    border: 2px solid #000;
+}
+
+#message {
+    margin-bottom: 20px;
+}
+
+.colorButtons button {
+    padding: 8px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+body, h1, button {
+    color: #333; /* Warna teks utama */
+}
+
+button {
+    background-color: #f50029; /* Warna tombol */
+    color: #fff; /* Warna teks tombol */
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000000; /* Warna tombol saat dihover */
+}
+.background-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Latar belakang dengan transparansi */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
